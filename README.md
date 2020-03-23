@@ -1,40 +1,36 @@
-Description
+# Description
 Python script which prints basic information about Linux OS to console.
 
 The script should accept a single parameter to specify which metrics set to print:
-    *cpu - prints CPU metrics
-    *mem - prints RAM metrics
+* cpu - prints CPU metrics
+* mem - prints RAM metrics
 		
-Requirements:
+## Requirements:
  - python 3
  - pip
  - psutil
 
-Installation:
-pip install psutil
+## Installation:
+	pip install psutil
 
-Examples:
-python metrics.py cpu
-####################CPU####################
-system.cpu.idle 27836.91
-system.cpu.user 20.1
-system.cpu.guest 0.0
-system.cpu.iowait 106.13
-system.cpu.stolen 0.0
-system.cpu.system 25.23
-###########################################
+## Examples:
+python metrics.py cpu<br />
+####################CPU####################<br />
+system.cpu.idle 27836.91<br />
+system.cpu.user 20.1<br />
+system.cpu.guest 0.0<br />
+system.cpu.iowait 106.13<br />
+system.cpu.stolen 0.0<br />
+system.cpu.system 25.23<br />
+###########################################<br />
 
-python metrics.py mem
-####################MEMORY####################
-virtual total 2082521088
-virtual used 286105600
-virtual free 1484484608
-virtual shared 9531392
-swap total 2144333824
-swap used 0
-swap free 2144333824
-##############################################
-
-
-
-
+python metrics.py mem<br />
+####################MEMORY####################<br />
+virtual total 2082521088<br />
+virtual used 286105600<br />
+virtual free 1484484608<br />
+virtual shared 9531392<br />
+swap total 2144333824<br />
+swap used 0<br />
+swap free 2144333824<br />
+##############################################<br />
