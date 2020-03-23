@@ -2,8 +2,8 @@ Description
 Python script which prints basic information about Linux OS to console.
 
 The script should accept a single parameter to specify which metrics set to print:
-    cpu - prints CPU metrics
-    mem - prints RAM metrics
+    *cpu - prints CPU metrics
+    *mem - prints RAM metrics
 		
 Requirements:
  - python 3
